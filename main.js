@@ -56,7 +56,8 @@ var careers = ["Entertainer (Charm, Coordination, Deception, Discipline, Leaders
                 "Wizard (Alchemy, Arcana, Coercion, Discipline, Knowledge[Forbidden], Knowledge[Lore], Leadership, Skulduggery, Vigilance)",
                 "Scholar (Alchemy, Knowledge[ALL], Mechanics, Medicine, Perception, Rune)",
                 "Scout (Knowledge[Adventuring], Knowledge[Geography], Perception, Ranged, Riding, Stealth, Survival, Vigilance)",
-                "Warrior (Brawl, Coercion, Leadership, Melee[ALL], Resilience, Riding, Vigilance)"]
+                "Warrior (Brawl, Coercion, Leadership, Melee[ALL], Resilience, Riding, Vigilance)",
+                "Bard (Charm, Cool, Coordination, Deception, Knowledge[Geography], Knowledge[Lore], Knowledge[Adventuring], Perception, Vigilance, Verse)"]
 
 function randomGen (upto) {
     var max = upto;
