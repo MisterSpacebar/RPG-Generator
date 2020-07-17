@@ -59,9 +59,9 @@ var careers = ["Entertainer (Charm, Coordination, Deception, Discipline, Leaders
                 "Warrior (Brawl, Coercion, Leadership, Melee[ALL], Resilience, Riding, Vigilance)",
                 "Bard (Charm, Cool, Coordination, Deception, Knowledge[Geography], Knowledge[Lore], Knowledge[Adventuring], Perception, Vigilance, Verse)"];
 
-var weapons = ["Bow", "Spear", "Sword", "Sword and Shield", "Crossbow", "Axe", "Mace", "Mace and Shield", "Staff", "Helberd", "Dagger", "Dagger", "Dagger", "Staff", "Staff", "Lute", "Flute"];
-var armor = ["Clothes", "Heavy Robes", "Padded Armor", "Clothes", "Clothes", "Clothes", "Winter Clothing"];
-var potion = ["1 Stamina Potion and Waterskin", "1 Stamina Potion and Waterskin", "1 Stamina Potion", "1 Stamina Potion", "2 Stamina Potion", "2 Stamina Potion and Waterskin", "Backpack (bedroll, rope, flint&steel, 3 torches, waterskin)", "Lantern", "Thieves Tools", "Climbing Gear"];
+var weapons = ["Bow", "Spear", "Sword", "Sword and Shield", "Crossbow", "Axe", "Mace", "Mace and Shield", "Staff", "Helberd", "Dagger", "Dagger", "Staff", "Lute", "Flute", "War Hammer", "Longbow", "Sling"];
+var armor = ["Clothes", "Heavy Robes", "Padded Armor", "Clothes", "Clothes", "Clothes", "Winter Clothing", "Scale Armor"];
+var potion = ["1 Stamina Potion and Waterskin", "1 Stamina Potion and Waterskin", "1 Stamina Potion", "1 Stamina Potion", "2 Stamina Potion", "2 Stamina Potion and Waterskin", "Backpack (bedroll, rope, flint&steel, 3 torches, waterskin)", "Lantern", "Lantern and 1 Stamina Potion", "Thieves Tools", "Climbing Gear"];
 
 function randomGen (upto) {
     var max = upto;
@@ -90,7 +90,7 @@ $("#remake").on("click", function(event){
 
     $("#career").text(careers[randomGen(careers.length)]);
 
-    $("#weapon").text("Weapon: "+weapons[randomGen(weapons.length)]);
+    $("#weapon").text("Weapon/Item: "+weapons[randomGen(weapons.length)]);
     $("#armor").text("Armor: "+armor[randomGen(armor.length)]);
     $("#potion").text("Extra: "+potion[randomGen(potion.length)]);
 
