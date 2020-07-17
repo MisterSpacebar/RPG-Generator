@@ -57,7 +57,11 @@ var careers = ["Entertainer (Charm, Coordination, Deception, Discipline, Leaders
                 "Scholar (Alchemy, Knowledge[ALL], Mechanics, Medicine, Perception, Rune)",
                 "Scout (Knowledge[Adventuring], Knowledge[Geography], Perception, Ranged, Riding, Stealth, Survival, Vigilance)",
                 "Warrior (Brawl, Coercion, Leadership, Melee[ALL], Resilience, Riding, Vigilance)",
-                "Bard (Charm, Cool, Coordination, Deception, Knowledge[Geography], Knowledge[Lore], Knowledge[Adventuring], Perception, Vigilance, Verse)"]
+                "Bard (Charm, Cool, Coordination, Deception, Knowledge[Geography], Knowledge[Lore], Knowledge[Adventuring], Perception, Vigilance, Verse)"];
+
+var weapons = ["Bow", "Spear", "Sword", "Sword and Shield", "Crossbow", "Axe", "Mace", "Mace and Shield", "Staff", "Helberd", "Dagger", "Dagger", "Dagger", "Staff", "Staff", "Lute", "Flute"];
+var armor = ["Clothes", "Heavy Robes", "Padded Armor", "Clothes", "Clothes", "Clothes", "Winter Clothing"];
+var potion = ["1 Stamina Potion and Waterskin", "1 Stamina Potion and Waterskin", "1 Stamina Potion", "1 Stamina Potion", "2 Stamina Potion", "2 Stamina Potion and Waterskin", "Backpack (bedroll, rope, flint&steel, 3 torches, waterskin)", "Lantern", "Thieves Tools", "Climbing Gear"];
 
 function randomGen (upto) {
     var max = upto;
@@ -83,7 +87,14 @@ $("#remake").on("click", function(event){
     $("#flaws").text(flaws[randomGen(10)]);
     $("#strengths").text(strengths[randomGen(10)]);
     $("#fears").text(fears[randomGen(10)]);
+
     $("#career").text(careers[randomGen(careers.length)]);
+
+    $("#weapon").text("Weapon: "+weapons[randomGen(weapons.length)]);
+    $("#armor").text("Armor: "+armor[randomGen(armor.length)]);
+    $("#potion").text("Extra: "+potion[randomGen(potion.length)]);
+
+    $("#currency").text("Starting Currency: "+(randomGen(10)+randomGen(10))+" Coins");
 
     // console.log(desires[desireNumber]);
     // console.log(flaws[flawNumber]);
