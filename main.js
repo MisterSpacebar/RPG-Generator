@@ -51,16 +51,19 @@ function randomGen (upto) {
 }
 
 $("#remake").on("click", function(event){
-    $("#desires").empty();
     event.preventDefault();
     var desireNumber = $("<p>").text(randomGen(10));
     var strengthNumber = $("<p>").text(randomGen(10));
     var flawNumber = $("<p>").text(randomGen(10));
     var fearNumber = $("<p>").text(randomGen(10));
-    console.log(number);
 
     $("#desires").append(desires[desireNumber]);
     $("#flaws").append(flaws[flawNumber]);
     $("#strengths").append(strengths[strengthNumber]);
     $("#fears").append(fears[fearNumber]);
+
+    console.log(desires[desireNumber]);
+    console.log(flaws[flawNumber]);
+    console.log(strengths[strengthNumber]);
+    console.log(fears[fearNumber]);
 });
