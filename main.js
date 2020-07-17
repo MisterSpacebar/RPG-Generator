@@ -66,10 +66,10 @@ $("#remake").on("click", function(event){
     $("#strengths").text(strengths[randomGen(10)]);
     $("#fears").text(fears[randomGen(10)]);
 
-    console.log(desires[desireNumber]);
-    console.log(flaws[flawNumber]);
-    console.log(strengths[strengthNumber]);
-    console.log(fears[fearNumber]);
+    // console.log(desires[desireNumber]);
+    // console.log(flaws[flawNumber]);
+    // console.log(strengths[strengthNumber]);
+    // console.log(fears[fearNumber]);
 
     console.log(strengths);
     console.log(desires);
