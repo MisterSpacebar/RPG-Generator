@@ -42,6 +42,22 @@ var flaws = ["1. Anger: Your PC lashes out at themselves or others with undue ca
             "9. Recklessness: Your PC shows little regard for how their actions may affect themselves or others, either due to low self0esteem or lack of forethought.",
             "10. Timid: Your PC is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable toa ct at all in the face of new or intimidating challenges."];
 
+var careers = ["Entertainer (Charm, Coordination, Deception, Discipline, Leadership, Melee[Light], Skulduggery, Stealth)",
+                "Explorer (Athletics, Brawl, Coordination, Deception, Perception, Ranged, Stealth, Survival)",
+                "Healer (Cool, Discipline, Knowledge, Medicine, Melee[Light], Resilience, Survival, Vigilance)",
+                "Leader (Charm Coercion, Cool, Discipline, Leadership, Melee[Light], Negotiation, Perception)",
+                "Scoundrel (Chjarm, Cool, Coordination, Deception, Ranged, Skulduggery, Stealth, Streetwise)",
+                "Socialite (Charm, Cool, Deception, Knowledge, Negotiation, Perception, Streetwise, Vigilance)",
+                "Soldier/Guard (Athletics, Brawl, Coercion, Melee[Heavy], Perception, Ranged, Survival, Vigilance)",
+                "Tradesman (Athletics, Brawl, Discipline, Mechanics, Negotiation, Perception, Resilence, Streetwise)",
+                "Knight (Athletics, Discipline, Leadership, Melee[Heavy+Light], Resilience, Riding, Vigilance)",
+                "Priest (Charm, Coercion, Cool, Discipline, Divine, Knowledge[Lore], Medicine, Melee[Light], Negotiation)",
+                "Druid (Athletics, Brawl, Coordination, Melee[Heavy], Primal, Survival, Vigilance)",
+                "Wizard (Alchemy, Arcana, Coercion, Discipline, Knowledge[Forbidden], Knowledge[Lore], Leadership, Skulduggery, Vigilance)",
+                "Scholar (Alchemy, Knowledge[ALL], Mechanics, Medicine, Perception, Rune)",
+                "Scout (Knowledge[Adventuring], Knowledge[Geography], Perception, Ranged, Riding, Stealth, Survival, Vigilance)",
+                "Warrior (Brawl, Coercion, Leadership, Melee[ALL], Resilience, Riding, Vigilance)"]
+
 function randomGen (upto) {
     var max = upto;
     var result = Math.floor(Math.random() * max);
@@ -60,11 +76,13 @@ $("#remake").on("click", function(event){
     $("#flaws").empty();
     $("#strengths").empty();
     $("#fears").empty();
+    $("#career").empty();
 
     $("#desires").text(desires[randomGen(10)]);
     $("#flaws").text(flaws[randomGen(10)]);
     $("#strengths").text(strengths[randomGen(10)]);
     $("#fears").text(fears[randomGen(10)]);
+    $("#career").text(careers[randomGen(careers.length)]);
 
     // console.log(desires[desireNumber]);
     // console.log(flaws[flawNumber]);
