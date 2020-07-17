@@ -57,10 +57,10 @@ $("#remake").on("click", function(event){
     var flawNumber = $("<p>").text(randomGen(10));
     var fearNumber = $("<p>").text(randomGen(10));
 
-    $("#desires").append(desires[desireNumber]);
-    $("#flaws").append(flaws[flawNumber]);
-    $("#strengths").append(strengths[strengthNumber]);
-    $("#fears").append(fears[fearNumber]);
+    $("#desires").text(desires[desireNumber]);
+    $("#flaws").text(flaws[flawNumber]);
+    $("#strengths").text(strengths[strengthNumber]);
+    $("#fears").text(fears[fearNumber]);
 
     console.log(desires[desireNumber]);
     console.log(flaws[flawNumber]);
