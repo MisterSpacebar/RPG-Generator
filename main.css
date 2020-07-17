@@ -1,0 +1,28 @@
+.container {
+    width: 1600px;
+    margin: 0 auto;
+   }
+  
+  .jumbotron {
+    background-color: lightgray;
+    text-align: center;
+  }
+   
+   h2 {
+    text-align: center;
+    font-size: 30px;
+   }
+   
+   p {
+    text-align: center;
+   }
+   
+   #make-number {
+     margin: 0 auto;
+     display: inline-block;
+   }
+   
+   #remake {
+     margin: 0 auto;
+     display: inline-block;
+   }
