@@ -40,7 +40,7 @@ var flaws = ["1. Anger: Your PC lashes out at themselves or others with undue ca
             "7. Intolerance: Your PC harbors some prejudice towards a group of peoples.",
             "8. Pride: Your PC is prideful to the point of being arrogant, vain, or self-absorbed, and thinks highly of themselves at the expense of others.",
             "9. Recklessness: Your PC shows little regard for how their actions may affect themselves or others, either due to low self0esteem or lack of forethought.",
-            "10. Timid: Your PC is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable toa ct at all in the face of new or intimidating challenges."];
+            "10. Timid: Your PC is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable to act at all in the face of new or intimidating challenges."];
 
 var careers = ["Entertainer (Charm, Coordination, Deception, Discipline, Leadership, Melee[Light], Skulduggery, Stealth)",
                 "Explorer (Athletics, Brawl, Coordination, Deception, Perception, Ranged, Stealth, Survival)",
