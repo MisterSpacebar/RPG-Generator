@@ -94,7 +94,7 @@ $("#remake").on("click", function(event){
     $("#armor").text("Armor: "+armor[randomGen(armor.length)]);
     $("#potion").text("Extra: "+potion[randomGen(potion.length)]);
 
-    $("#currency").text("Starting Currency: "+(randomGen(51)+randomGen(51)+randomGen(51)+randomGen(51))+" Coins");
+    $("#currency").text("Starting Currency: "+(randomGen(70)+randomGen(70)+randomGen(70))+" Coins");
 
     // console.log(desires[desireNumber]);
     // console.log(flaws[flawNumber]);
