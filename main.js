@@ -44,10 +44,10 @@ var flaws = ["1. Anger: Your PC lashes out at themselves or others with undue ca
 
 var careers = ["Entertainer (Charm, Coordination, Deception, Discipline, Leadership, Melee[Light], Skulduggery, Stealth)",
                 "Explorer (Athletics, Brawl, Coordination, Deception, Perception, Ranged, Stealth, Survival)",
-                "Healer (Cool, Discipline, Knowledge, Medicine, Melee[Light], Resilience, Survival, Vigilance)",
+                "Healer (Cool, Discipline, Knowledge[Lore], Medicine, Melee[Light], Resilience, Survival, Vigilance)",
                 "Leader (Charm Coercion, Cool, Discipline, Leadership, Melee[Light], Negotiation, Perception)",
                 "Scoundrel (Chjarm, Cool, Coordination, Deception, Ranged, Skulduggery, Stealth, Streetwise)",
-                "Socialite (Charm, Cool, Deception, Knowledge, Negotiation, Perception, Streetwise, Vigilance)",
+                "Socialite (Charm, Cool, Deception, Knowledge[Lore], Negotiation, Perception, Streetwise, Vigilance)",
                 "Soldier/Guard (Athletics, Brawl, Coercion, Melee[Heavy], Perception, Ranged, Survival, Vigilance)",
                 "Tradesman (Athletics, Brawl, Discipline, Mechanics, Negotiation, Perception, Resilence, Streetwise)",
                 "Knight (Athletics, Discipline, Leadership, Melee[Heavy+Light], Resilience, Riding, Vigilance)",
