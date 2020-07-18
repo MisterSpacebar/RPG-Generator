@@ -17,7 +17,7 @@ var desires = ["1. Ambition: Your PC craves power and authority over others. The
                 "6. Knowledge: Your PC wishes to uncover knowledge that may have been lost, forgotten, or locked away.",
                 "7. Love: Your PC seeks romantic affection and intimacy with another character.",
                 "8. Safety: Your PC values peace and comfort above all else. Perhaps they seek shelter, a steady source of food, or other necessities, or they might seek emotional security in a place free from abuse or oppression.",
-                "9. Vegeance: Someone or something wronger your PC in the past and the PC has sworn to exact revenge against the aggrieving party.",
+                "9. Vegeance: Someone or something wronged your PC in the past and the PC has sworn to exact revenge against the aggrieving party.",
                 "10. Wealth: Money or material possessions are the prime desire of your PC."];
 
 var fears = ["1. Change: Your PC finds routine and stability comforting, and fears change that could upend their day.",
