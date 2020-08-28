@@ -46,7 +46,7 @@ var careers = ["Entertainer (Charm, Coordination, Deception, Discipline, Leaders
                 "Explorer (Athletics, Brawl, Coordination, Deception, Perception, Ranged, Stealth, Survival)",
                 "Healer (Cool, Discipline, Knowledge[Lore], Medicine, Melee[Light], Resilience, Survival, Vigilance)",
                 "Leader (Charm Coercion, Cool, Discipline, Leadership, Melee[Light], Negotiation, Perception)",
-                "Scoundrel (Chjarm, Cool, Coordination, Deception, Ranged, Skulduggery, Stealth, Streetwise)",
+                "Scoundrel (Charm, Cool, Coordination, Deception, Ranged, Skulduggery, Stealth, Streetwise)",
                 "Socialite (Charm, Cool, Deception, Knowledge[Lore], Negotiation, Perception, Streetwise, Vigilance)",
                 "Soldier/Guard (Athletics, Brawl, Coercion, Melee[Heavy], Perception, Ranged, Survival, Vigilance)",
                 "Tradesman (Athletics, Brawl, Discipline, Mechanics, Negotiation, Perception, Resilence, Streetwise)",
